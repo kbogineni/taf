@@ -1,1 +1,1 @@
-# taf - Test Automation Framework
+# taf - Test Automation Framework for SW/HW
