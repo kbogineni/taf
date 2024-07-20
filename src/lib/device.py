@@ -11,7 +11,7 @@ class RemoteDevice:
     _WAIT_TIME = 10
 
     def __init__(self, host, username, password, port=22):
-        """ Create the SSH instance and returns the object
+        """ Create the SSH instance and returns the object.
 
         :param host: Device IP or Hostname
         :param username: username
