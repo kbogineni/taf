@@ -12,4 +12,4 @@ jobs:
 
       - name: Analysing the code with pylint
         run: |
-          python -m pylint $(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} '*.py') --exit-zero
+          python -m pylint $(git diff --name-only "${{ github.event.before }}" "${{ github.event.after }}" '*.py') --exit-zero
