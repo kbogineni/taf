@@ -28,3 +28,4 @@ def is_device_pingable(host):
     status, _ = execute_host_command_get_output(
         "ping %s" % host, ignore_status=True)
     return not status
+
