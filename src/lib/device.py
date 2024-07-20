@@ -37,3 +37,4 @@ class RemoteDevice:
                 return
             time.sleep(self._WAIT_TIME)
         raise exceptions.TestError("%s is not up" % self.host)
+
