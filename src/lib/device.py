@@ -23,7 +23,9 @@ class RemoteDevice:
         self.username = username
         self.password = password
         self.port = port
-        self.device = SSHClient(self.host, user=self.username, password=self.password, port=self.port)
+        self.device = SSHClient(
+            self.host, user=self.username, password=self.password,
+            port=self.port)
 
     def wait_for_remote(self, timeout=60):
         """Wait for the remote device up"""
@@ -35,5 +37,4 @@ class RemoteDevice:
                 return
             time.sleep(self._WAIT_TIME)
         raise exceptions.TestError("%s is not up" % self.host)
-
 
