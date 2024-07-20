@@ -20,7 +20,7 @@ def execute_host_command_get_output(command, ignore_status=False):
 
 
 def is_device_pingable(host):
-    """ Checks whether device is pingable
+    """ Checks whether device is pingable.
 
     :param host: device ip address
     :return: bool value either True or False
