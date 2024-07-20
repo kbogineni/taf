@@ -9,7 +9,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pylint
-          git checkout ${{ github.ref_name }}
+          
+          git checkout $(git branch -r --contains ${{ github.ref }} --format "%(refname:lstrip=3)")
       - name: Analysing the code with pylint
         run: |
           pylint $(git ls-files '*.py') --exit-zero
