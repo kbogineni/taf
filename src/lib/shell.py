@@ -13,7 +13,9 @@ def execute_host_command_get_output(command, ignore_status=False):
     status, output = subprocess.getstatusoutput(command)
     if not ignore_status:
         if status:
-            raise exceptions.TestFail("'%s' command execution failed with status %d" % (command, status))
+            raise exceptions.TestFail(
+                "'%s' command execution failed with status %d" % (command,
+                                                                  status))
     return status, output
 
 
@@ -23,6 +25,6 @@ def is_device_pingable(host):
     :param host: device ip address
     :return: bool value either True or False
     """
-    status, _ = execute_host_command_get_output("ping %s" % host, ignore_status=True)
+    status, _ = execute_host_command_get_output(
+        "ping %s" % host, ignore_status=True)
     return not status
-

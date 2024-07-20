@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aec0bf37-fa3c-4713-924c-9740e415423d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/taf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/device.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/shell.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/power/boot_to_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/power/boot_to_os.py" afterDir="false" />
     </list>
@@ -22,16 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="1rKEJ2Sv5GgJLid8hW85yZ4ctat" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "format__code",
+    "last_opened_file_path": "C:/Users/Kasaiah Bogineni/taf"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Keerthan\Desktop\workspace\taf\src\lib" />
@@ -40,6 +49,7 @@
   <component name="RunManager" selected="Python tests.Unittests for device_test.DeviceTest">
     <configuration name="boot_to_os" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="taf" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -61,6 +71,7 @@
     </configuration>
     <configuration name="Unittests for device_test.DeviceTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="taf" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -79,6 +90,13 @@
         <item itemvalue="Python.boot_to_os" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
